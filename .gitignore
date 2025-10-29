@@ -1,4 +1,10 @@
+# Byte-compiled / optimized / DLL files
+*/__pycache__/
+
+# Environments
 .env
+.venv
+venv/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
@@ -21,3 +27,4 @@ logs/
 # Dados gerados pelas suas DAGs (ex: os CSVs)
 # (Seu script extrai_infos_clima.py gera essa pasta)
 scripts/data/
+data/
