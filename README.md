@@ -1,3 +1,3 @@
-Este projeto é a implementação do curso da Alura [Apache Airflow: orquestrando seu primeiro pipeline de dados](https://cursos.alura.com.br/course/apache-airflow-primeiro-pipeline-dados). O foco é a introdução ao Apache Airflow para orquestrar um pipeline de dados climáticos (DAGs).
+Este projeto é baseado no curso da Alura [Apache Airflow: orquestrando seu primeiro pipeline de dados](https://cursos.alura.com.br/course/apache-airflow-primeiro-pipeline-dados). O foco é a introdução ao Apache Airflow para orquestrar um pipeline de dados climáticos (DAGs).
 
-A principal diferença é que o projeto está rodando em um ambiente containerizado com Docker/Docker Compose, garantindo uma execução isolada e consistente, simulando um ambiente de produção.
+A principal modificação implementada foi a execução do ambiente em Docker, de modo a isolar dependências e simplificar a replicação do projeto.
